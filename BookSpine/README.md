@@ -41,6 +41,20 @@
         eg:
         $ python main.py --image='./Example/Src/002.jpg'
 
+
+##Result
+* **tmp result**.
+
+![tmpresult](./Example/CRimg.jpg)
+
+
+* **final result**.
+
+![finalresult](./Example/OutputImage.jpg)
+
+
+
+
 ----
 ##License
 
