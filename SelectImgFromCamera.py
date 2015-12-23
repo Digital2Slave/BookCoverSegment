@@ -66,3 +66,13 @@ def SelectImgFromCamera(aviFile=None):
     cam.release()
     cv2.destroyAllWindows()
     return chooseImg
+
+def test():
+    res = SelectImgFromCamera(aviFile=None)
+    cv2.imshow('res', res)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+if __name__=='__main__':
+
+    test()
