@@ -1,4 +1,3 @@
-![beautifulreading](./Example/beautifulreading.png)
 #Book Spine Segment By Python
 
 ----
