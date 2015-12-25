@@ -247,7 +247,7 @@ if __name__ == "__main__":
     InputImg = cv2.imread(args["image"]) # "./Example/Src/002.jpg"
     InputImg = cv2.imread('./Example/Src/008.jpg')
     '''
-    cameraOpen = True
+    cameraOpen = False
     Scale = 1.0
     if cameraOpen:
         Input = None     # like 'bookspine.avi'
@@ -257,8 +257,8 @@ if __name__ == "__main__":
             InputImg = Input
             Scale = 4.0
     else:
-        InputImg = cv2.imread('./Example/Src/008.jpg')
-        Scale = 8.0
+        InputImg = cv2.imread('./Example/Src/003.jpg')
+        Scale = 2.0
 
     Height, Width = np.shape(InputImg)[0:2]
     H = int(Height/Scale)
