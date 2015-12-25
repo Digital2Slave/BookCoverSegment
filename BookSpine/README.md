@@ -7,7 +7,8 @@
 ----
 ##Structure
 * main.py
-> main.py is the main entry of this implementation, which is consist of the flowing four py files. Especially, it is also contain the extraction of **gradient, angle** for input image, **Graph** processing for each possible candiate rectangle **CRs**, and write the results of **Book Spine Segment** to the fixed directory**(For example "./Example/Dst")**.
+ >
+ main.py is the main entry of this implementation, which is consist of the flowing four py files. Especially, it is also contain the extraction of **gradient, angle** for input image, **Graph** processing for each possible candiate rectangle **CRs**, and write the results of **Book Spine Segment** to the fixed directory**(For example "./Example/Dst")*> ``
 
 * SelectImg.py
 > SelectImg.py is used to obtain one stablization picture from camera (webcamera).
