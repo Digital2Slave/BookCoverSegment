@@ -1,8 +1,8 @@
-##Book Cover Choose and Segment
+## Book Cover Choose and Segment
 
 This folder contains a Choose module and a Segment folder.
 
-###struct
+### Struct
 
 1. Choose module
 
